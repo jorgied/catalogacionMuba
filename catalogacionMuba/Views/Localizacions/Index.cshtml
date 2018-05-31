@@ -1,0 +1,57 @@
+﻿@model IEnumerable<catalogacionMuba.Models.Localizacion>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ubicacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Observacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ubicacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Observacion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id_loc }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id_loc }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id_loc })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,288 @@
+﻿@model catalogacionMuba.Models.Obra
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Obra</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cod_reg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cod_reg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cod_mues)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cod_mues)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Coleccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Coleccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Conjunto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conjunto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Serie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Serie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nacionalidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nacionalidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Origen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Origen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fechado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fechado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegimenPrioridad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegimenPrioridad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Procedencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Procedencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Premios)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Premios)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tecnica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tecnica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescPreiconografica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescPreiconografica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DimencionMarco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DimencionMarco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DimSoporte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DimSoporte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DimSinMarco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DimSinMarco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tamaño)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tamaño)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Inscripciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Inscripciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoIntegridad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoIntegridad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadooConservacionObra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadooConservacionObra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadooConservacionMarco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadooConservacionMarco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservacionConservacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservacionConservacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FotoFrente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FotoFrente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FotoPost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FotoPost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservacionesObra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservacionesObra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnalisisObra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnalisisObra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bibliografia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bibliografia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Responsable)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Responsable)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCatalogacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCatalogacion)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,225 @@
+﻿@model IEnumerable<catalogacionMuba.Models.Obra>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cod_reg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cod_mues)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Coleccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Conjunto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Serie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Autor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nacionalidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Origen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fechado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegimenPrioridad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Procedencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Premios)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tecnica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescPreiconografica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DimencionMarco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DimSoporte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DimSinMarco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tamaño)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Inscripciones)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoIntegridad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadooConservacionObra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadooConservacionMarco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ObservacionConservacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FotoFrente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FotoPost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ObservacionesObra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AnalisisObra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bibliografia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Responsable)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCatalogacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cod_reg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cod_mues)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Coleccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Conjunto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Serie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Autor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nacionalidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Origen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fechado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RegimenPrioridad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Procedencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Premios)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tecnica)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescPreiconografica)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DimencionMarco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DimSoporte)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DimSinMarco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tamaño)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Inscripciones)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoIntegridad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadooConservacionObra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadooConservacionMarco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ObservacionConservacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FotoFrente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FotoPost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ObservacionesObra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnalisisObra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bibliografia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Responsable)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCatalogacion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Cod_obra }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Cod_obra }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Cod_obra })
+        </td>
+    </tr>
+}
+
+</table>

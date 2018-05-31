@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "catalogacionMuba", "catalogacionMuba\catalogacionMuba.csproj", "{EF55960C-A2A4-4375-9A03-70DA5A81FBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF55960C-A2A4-4375-9A03-70DA5A81FBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF55960C-A2A4-4375-9A03-70DA5A81FBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF55960C-A2A4-4375-9A03-70DA5A81FBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF55960C-A2A4-4375-9A03-70DA5A81FBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {478F059F-2C09-49CC-B885-E0EAA55768F2}
+	EndGlobalSection
+EndGlobal
